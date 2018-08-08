@@ -73,4 +73,16 @@
  **For example**, we will try to implement a simple Shopping Cart where we have two payment strategies – using Credit Card or using PayPal.
  First of all we will create the interface for our strategy pattern example, in our case to pay the amount passed as argument.
 
+ ***
+ ## Singleton Pattern
+ Singleton pattern is a creational design pattern.
+ Singleton pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the java virtual machine. 
+ It must provide a global access point to get the instance of the class. Singleton pattern is used for logging, drivers objects, caching and thread pool.
+ Therefore it must have :
+ + Private constructor to restrict instantiation of the class from other classes.
+ + Private static variable of the same class that is the only instance of the class.
+ + Public static method that returns the instance of the class, this is the global access point for outer world to get the instance of the singleton class. 
+  
+ 
+ 
 Source https://www.journaldev.com/1827/java-design-patterns-example-tutorial
